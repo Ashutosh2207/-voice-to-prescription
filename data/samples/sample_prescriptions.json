@@ -1,0 +1,148 @@
+{
+  "samples": [
+    {
+      "id": 1,
+      "transcript": "Paracetamol 500 mg, 1-0-1 for 5 days after food",
+      "expected": {
+        "medicines": [
+          {
+            "medicineName": "Paracetamol",
+            "dosage": "500 mg",
+            "frequency": "1-0-1",
+            "duration": "5 days",
+            "route": "oral",
+            "instructions": "After food"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "transcript": "Amoxicillin 500 mg three times daily for 7 days",
+      "expected": {
+        "medicines": [
+          {
+            "medicineName": "Amoxicillin",
+            "dosage": "500 mg",
+            "frequency": "1-1-1",
+            "duration": "7 days",
+            "route": "oral",
+            "instructions": null
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "transcript": "Metformin 500 mg twice daily for 30 days. Also Atorvastatin 10 mg once daily at night",
+      "expected": {
+        "medicines": [
+          {
+            "medicineName": "Metformin",
+            "dosage": "500 mg",
+            "frequency": "1-0-1",
+            "duration": "30 days",
+            "route": "oral",
+            "instructions": null
+          },
+          {
+            "medicineName": "Atorvastatin",
+            "dosage": "10 mg",
+            "frequency": "1-0-0",
+            "duration": null,
+            "route": "oral",
+            "instructions": "At bedtime"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "transcript": "Ibuprofen 400 mg SOS for pain after food",
+      "expected": {
+        "medicines": [
+          {
+            "medicineName": "Ibuprofen",
+            "dosage": "400 mg",
+            "frequency": "SOS",
+            "duration": null,
+            "route": "oral",
+            "instructions": "After food"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "transcript": "Omeprazole 20 mg once daily before breakfast for 14 days",
+      "expected": {
+        "medicines": [
+          {
+            "medicineName": "Omeprazole",
+            "dosage": "20 mg",
+            "frequency": "1-0-0",
+            "duration": "14 days",
+            "route": "oral",
+            "instructions": "Before food"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "transcript": "Cetirizine 10 mg once daily at night for 10 days. Montelukast 10 mg at bedtime",
+      "expected": {
+        "medicines": [
+          {
+            "medicineName": "Cetirizine",
+            "dosage": "10 mg",
+            "frequency": "1-0-0",
+            "duration": "10 days",
+            "route": "oral",
+            "instructions": "At bedtime"
+          },
+          {
+            "medicineName": "Montelukast",
+            "dosage": "10 mg",
+            "frequency": "1-0-0",
+            "duration": null,
+            "route": "oral",
+            "instructions": "At bedtime"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "transcript": "Salbutamol inhaler 2 puffs four times daily as needed",
+      "expected": {
+        "medicines": [
+          {
+            "medicineName": "Salbutamol",
+            "dosage": "2 puffs",
+            "frequency": "1-1-1-1",
+            "duration": null,
+            "route": "inhalation",
+            "instructions": "As needed"
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "transcript": "Insulin regular 10 units before breakfast and 8 units before dinner",
+      "expected": {
+        "medicines": [
+          {
+            "medicineName": "Insulin",
+            "dosage": "10 units / 8 units",
+            "frequency": "1-0-1",
+            "duration": null,
+            "route": "injection",
+            "instructions": "Before food"
+          }
+        ]
+      }
+    }
+  ]
+}
