@@ -1,2 +1,8 @@
+[project]
+name = "voice-to-prescription"
+version = "1.0.0"
+description = "AI-powered Voice to Prescription system"
+requires-python = ">=3.10"
+
 [tool.vercel]
 entrypoint = "app.api:app"
