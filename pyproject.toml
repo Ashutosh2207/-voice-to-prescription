@@ -1,8 +1,9 @@
+@'
 [project]
 name = "voice-to-prescription"
 version = "1.0.0"
 description = "AI-powered Voice to Prescription system"
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 dependencies = [
     "fastapi==0.110.1",
     "uvicorn==0.29.0",
@@ -16,6 +17,4 @@ dependencies = [
     "pandas",
     "python-multipart==0.0.9"
 ]
-
-[tool.vercel]
-entrypoint = "app.api:app"
+'@ | Set-Content -Path pyproject.toml -Encoding utf8
